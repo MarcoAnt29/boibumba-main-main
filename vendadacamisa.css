@@ -1,0 +1,231 @@
+.camisaum{
+    width: 100px;
+    height: 100px;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 130px;
+    height: 130px;
+    width: 480px;
+}
+
+body{
+    
+justify-content: center;
+display: flex;
+background-color: rgb(3, 3, 3);
+overflow-x: hidden;
+  
+}
+
+
+
+
+
+.controls{
+    margin-top: 200px;
+}
+
+.descrição{
+    margin-top: 70px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 50px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+   font-style: normal;
+  background: rgb(1,1,11);
+background: linear-gradient(90deg, rgba(1, 11, 7, 0.667) 51%, rgba(27,147,5,0.8323704481792717) 80%);
+ width: 600px;
+ border-radius: 30px;
+ color: beige;
+ font-size: 35px;
+ margin-left:45px;
+ 
+
+ 
+    
+}
+
+.camiseta1{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+   font-style: normal;
+   color: beige;
+   margin-top: 80px;
+   display: flex;
+   justify-content: center;
+   background: rgb(1,1,11);
+   background: linear-gradient(90deg, rgba(1, 11, 7, 0.667) 51%, rgba(27,147,5,0.8323704481792717) 80%);
+   height: 110px;
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 45px;
+    
+}
+.descricao2{
+    margin-top: 20px;
+    font-size: 22px;
+    
+}
+
+.palavra{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.comprar{
+    background-color: #13c013;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 250px;
+    font-size: 26px;
+    height: 80px;
+    border-radius: 50px;
+    width: 200px;;
+    text-align: center;
+    height: 40px;
+    
+}
+
+@media only screen and (max-width: 414px) {
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    
+      body {
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+      }
+    
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    
+      .carousel {
+        
+        overflow: hidden;
+        box-shadow: 10px 10px 10px 10px rgba(37, 224, 0, 0.3);
+        border: solid green;
+        width: auto;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        justify-content: center;
+      }
+    
+      .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease;
+        border: solid green;
+         
+        
+      }
+    
+      .carousel-item {
+        min-width: 100%;
+      }
+    
+      img {
+        width: 300px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+      }
+    
+      .controls {
+      
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -50px;
+      }
+    
+      .control {
+        cursor: pointer;
+        background-color: rgba(255, 253, 253, 0.5);
+        color: #0c0b0b;
+        padding: 10px;
+        border: none;
+        margin-top: 400px;
+        
+      }
+
+
+
+.descrição{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    width: auto;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+
+}
+
+.descricao2{
+
+   font-size: 17px;
+    
+   
+}
+
+.titulo1{
+    width: 280px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+    
+
+    
+
+     .comprar{
+        margin-left: auto;
+        margin-right: auto;
+        
+     }
+
+     .camiseta1{
+     height: auto;
+    width: auto;
+    font-size: 10px;
+     }
+
+     .camicaum{
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .camisadois{
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto
+        
+     }
+     footer{
+        margin-top: auto;
+     }
+}
